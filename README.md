@@ -21,3 +21,14 @@ Add your answers to this markdown file.
 
 **3. The actual implementation of the algorithm can substantially impact its performance. Small choices in code as well as the choices of data structures and compiler optimizations.**
 
+**We know that the time complexity of searching in a binary search tree is O(logn), and thus we can expect a logarithmic increase in the time it takes to find an element as the value of n is increased. We know that the search when n = 1,000 (we can say T(1,000) was 5 seconds. Let's formulate an equation using the values we have thus far.
+
+T(10,000)/T(1,000) = log(10,000)/log(1,000)
+
+We can then plug in 5 seconds for T(1,000) to get T(10,000)/5 = log(10,000)/log(1,000)
+
+When we multiply both sides by 5, we get T(10,000) = 5 * ((log(10,000)/log(1,000))
+
+We can simplify this to T(10,000) = 5 * (4/3) which comes out to T(10,000) ≈ 6.67 seconds. So we can conclude that it would take about 6.67 seconds to find the same element in a search tree with 10,000 elements.
+
+Hmm... that should not be possible. Even if the new data set is worst case, the time should not be 100 seconds. Unless the fault is some unique external circumstance, then it is not possible that the 10,000 element search would take 20 times longer than 1,000 element search.**
