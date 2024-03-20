@@ -14,3 +14,8 @@
   complexity suggests a different time.
 
 Add your answers to this markdown file.
+
+**1. Asymptotic analysis disregards constants, which can make considerable differences, especially in cases of small amounts of data sets.**
+**2. Whenever 2 algorithms have the same asymptotic complexity, it seems that they would have the same runtime. This is misleading as that is often untrue, depending on many factors, including the distribution of the data sets.**
+**3. The actual implementation of the algorithm can substantially impact its performance. Small choices in code as well as the choices of data structures and compiler optimizations.**
+
